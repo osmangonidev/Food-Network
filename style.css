@@ -1,0 +1,116 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+.common-button {
+  background: linear-gradient(to right, #fba24f, #ff1e1e);
+  padding: 24px 34px;
+  color: #ffff;
+  font-size: 18px;
+  font-family: inherit;
+  border: none;
+  border-radius: 100px;
+  margin-top: 30px;
+}
+
+.common-p {
+  font-size: 18px;
+  line-height: 32px;
+  color: #18191f;
+}
+
+.common-h2 {
+  color: #575757;
+  font-style: 40px;
+  font-weight: bold;
+}
+
+/* feature section style start */
+#feature {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 30px;
+  margin-bottom: 50px;
+}
+
+.feature__infomation {
+  width: 49%;
+  padding-top: 100px;
+}
+
+.feature__information__title {
+  font-weight: bold;
+  font-size: 60px;
+  line-height: 1.3;
+  color: #575757;
+}
+
+.feature__information__highlighted-text {
+  color: #f87409;
+}
+
+.feature__information__description {
+  font-size: 20px;
+}
+
+.feature__img {
+  width: 49%;
+}
+
+/* About Me section style start */
+#about-me {
+  background: url(./images/shapes/7.png);
+  display: flex;
+  justify-content: space-between;
+  height: 600px;
+}
+
+.about-me__img {
+  width: 47%;
+  padding-top: 80px;
+  text-align: center;
+}
+
+.about-me__img img{
+  height: 100%;
+}
+
+.about-me__details {
+  width: 47%;
+   padding: 100px 100px 0 0;
+}
+
+/* My Recipes section style start */
+#my-recipes {
+  text-align: center;
+  margin-top: 100px;
+}
+.my-recipes__info {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.recipe-items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 60px;
+}
+
+.recipe-item{
+  width: 25%;
+  box-shadow: 5px 5px 5px 5px rgb(187, 173, 146);
+  text-align: left;
+  padding: 30px;
+  border-radius: 25px;
+}
+
+.recipe-item__title {
+  font-weight: 800;
+  font-size: 28px;
+  line-height: 40px;
+  color: #18191f;
+}
+
+.recipe-item img{
+  width: 100%;
+}
