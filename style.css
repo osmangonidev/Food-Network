@@ -11,6 +11,12 @@ body {
   border: none;
   border-radius: 100px;
   margin-top: 30px;
+  cursor: pointer;
+}
+
+.common-button:hover{
+  background: linear-gradient(to left, #fba24f, #ff1e1e);
+  color: #18191f;
 }
 
 .common-p {
@@ -19,7 +25,7 @@ body {
   color: #18191f;
 }
 
-.common-h1{
+.common-h1 {
   font-weight: bold;
   font-size: 60px;
   line-height: 1.3;
@@ -34,6 +40,54 @@ body {
 
 .highlighted-text {
   color: #f87409;
+}
+
+/* Header section style start */
+#main-header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 30px;
+}
+
+#main-header .main-logo {
+  width: 30%;
+  box-sizing: border-box;
+}
+
+.main-logo img{
+  width: 100px;
+  margin-left: 50px;
+  margin-top: 10px;
+}
+
+.nav-bar{
+  width: 65%;
+  padding-top: 10px;
+}
+
+.nav-bar__items {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav-bar__item{
+  padding-top: 10px;
+}
+
+.nav-bar__items li:last-child{
+  background-color: #18191f;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav-bar__item > a {
+  text-decoration: none;
+  color: #f06f06;
+}
+
+.nav-bar__item > a:hover{
+  color: #e2a56b;
 }
 
 /* feature section style start */
@@ -71,13 +125,13 @@ body {
   text-align: center;
 }
 
-.about-me__img img{
+.about-me__img img {
   height: 100%;
 }
 
 .about-me__details {
   width: 47%;
-   padding: 100px 100px 0 0;
+  padding: 100px 100px 0 0;
 }
 
 /* My Recipes section style start */
@@ -100,7 +154,7 @@ body {
   margin-top: 60px;
 }
 
-.recipe-item{
+.recipe-item {
   width: 25%;
   box-shadow: 5px 5px 5px 5px rgb(187, 173, 146);
   text-align: left;
@@ -108,7 +162,7 @@ body {
   border-radius: 25px;
 }
 
-.recipe-item img{
+.recipe-item img {
   width: 100%;
 }
 
@@ -120,7 +174,7 @@ body {
 }
 
 /* Socila Media section style start */
-#social-media{
+#social-media {
   display: flex;
   justify-content: space-around;
   width: 1239px;
@@ -132,41 +186,39 @@ body {
   border-radius: 10px;
 }
 
-.social-media__item{
+.social-media__item {
   width: 30%;
   text-align: center;
 }
 
-.social-media__item__title{
+.social-media__item__title {
   font-weight: 700;
   font-size: 48px;
   line-height: 40px;
   color: #18191f;
 }
 
-.socila-media__item__info{
+.socila-media__item__info {
   font-size: 16px;
   font-weight: 400;
 }
 
 /* Footer section style start */
-#main-footer{
+#main-footer {
   height: 256px;
   text-align: center;
   background-color: #18191f;
   box-sizing: border-box;
   padding-top: 20px;
-  
 }
 
-.main-footer__title{
+.main-footer__title {
   font-size: 30px;
   font-weight: 800;
 }
 
-.main-footer__info{
+.main-footer__info {
   font-size: 16px;
   color: white;
   padding-top: 20px;
-  
 }
