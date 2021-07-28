@@ -14,7 +14,7 @@ body {
   cursor: pointer;
 }
 
-.common-button:hover{
+.common-button:hover {
   background: linear-gradient(to left, #fba24f, #ff1e1e);
   color: #18191f;
 }
@@ -54,13 +54,13 @@ body {
   box-sizing: border-box;
 }
 
-.main-logo img{
+.main-logo img {
   width: 100px;
   margin-left: 50px;
   margin-top: 10px;
 }
 
-.nav-bar{
+.nav-bar {
   width: 65%;
   padding-top: 10px;
 }
@@ -71,11 +71,11 @@ body {
   justify-content: space-around;
 }
 
-.nav-bar__item{
+.nav-bar__item {
   padding-top: 10px;
 }
 
-.nav-bar__items li:last-child{
+.nav-bar__items li:last-child {
   background-color: #18191f;
   padding: 10px;
   border-radius: 5px;
@@ -86,7 +86,7 @@ body {
   color: #f06f06;
 }
 
-.nav-bar__item > a:hover{
+.nav-bar__item > a:hover {
   color: #e2a56b;
 }
 
@@ -146,6 +146,7 @@ body {
 .my-recipes__info {
   width: 700px;
   margin: 0 auto;
+  margin-top: 30px;
 }
 
 .recipe-items {
@@ -201,6 +202,46 @@ body {
 .socila-media__item__info {
   font-size: 16px;
   font-weight: 400;
+}
+
+/* Client Reviews style start */
+#client-reviews {
+  text-align: center;
+  width: 1239px;
+  margin: 0 auto;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  box-sizing: border-box;
+}
+
+.client-reviews__items {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 70px;
+  box-sizing: border-box;
+}
+
+.client-reviews__item {
+  width: 30%;
+  padding: 10px;
+  border: 1px solid #e7e7de;
+  padding: 20px;
+}
+
+.client-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 0 auto;
+  border: 5px solid #575757;
+  box-sizing: border-box;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+.client-img img {
+  width: 85%;
+  height: 90%;
 }
 
 /* Footer section style start */
